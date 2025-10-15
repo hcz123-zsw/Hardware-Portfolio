@@ -37,6 +37,6 @@
 
 ---
 
-📧 **联系邮箱**：your_email@example.com  
+📧 **联系邮箱**：1729090579@qq.com  
 🔗 **GitHub**：[github.com/yourname](https://github.com/yourname)
 # Hardware-Portfolio
