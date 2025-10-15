@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>硬件工程师作品集 | 智能畜牧控制系统</title>
+
+  <style>
+    :root {
+      --primary: #0078d7;
+      --text-dark: #222;
+      --text-light: #555;
+      --bg: #f8f9fb;
+      --card-bg: #fff;
+      --border-radius: 14px;
+      --shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    body {
+      font-family: "Segoe UI", "PingFang SC", sans-serif;
+      background: var(--bg);
+      color: var(--text-dark);
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: var(--primary);
+      color: #fff;
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    header p {
+      margin-top: 0.5rem;
+      color: #eaf2fb;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 3rem auto;
+      padding: 0 1rem;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border-radius: var(--border-radius);
+      box-shadow: var(--shadow);
+      padding: 2rem;
+      margin-bottom: 2rem;
+      transition: transform 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+    }
+
+    h2 {
+      color: var(--primary);
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      padding-left: 1.5rem;
+      line-height: 1.7;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      color: var(--text-light);
+      font-size: 0.9rem;
+      border-top: 1px solid #ddd;
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .contact {
+      margin-top: 1rem;
+    }
+
+    .badge {
+      display: inline-block;
+      background: var(--primary);
+      color: white;
+      padding: 0.3rem 0.8rem;
+      border-radius: 12px;
+      font-size: 0.8rem;
+      margin-right: 0.5rem;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>⚙️ 硬件工程师作品集</h1>
+    <p>智能畜牧养殖环境控制系统 · AI 精准控制 · 节能降耗</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>📘 项目简介</h2>
+      <p>
+        畜牧养殖需要 24 小时监测温度、湿度、氨气浓度等数据，并通过控制模块分析处理，精准调控风机、水帘等执行设备，营造适宜畜禽生长的稳定环境。
+      </p>
+      <p>
+        本项目引入 <strong>人工智能技术</strong>，实现：
+      </p>
+      <ul>
+        <li>🤖 基于 AI 算法的多参数通风量精准调控</li>
+        <li>🔍 设备故障的智能预测与诊断</li>
+        <li>⚡ 节能降耗的智能控制</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>🧩 个人职责</h2>
+      <ul>
+        <li>依据项目性能需求，完成元器件精准选型</li>
+        <li>使用嘉立创 EDA 绘制电路原理图与 PCB</li>
+        <li>采用 SP3485 芯片 + 光耦 6N137 实现信号隔离与驱动</li>
+        <li>构建 RS485 通信链路，设计 B0505+B1212 双电源隔离架构</li>
+        <li>集成 TVS 二极管防护，继电器+光耦实现大功率隔离控制</li>
+        <li>优化布线实现信号完整性、电源隔离与浪涌保护</li>
+        <li>输出 Gerber 文件与 BOM 表，协同制造方验证生产工艺</li>
+        <li>调试代码、测试系统功能，确保设备稳定运行</li>
+        <li>编制《设备用户手册》《测试文档》，提供技术支持</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>🏆 项目成果</h2>
+      <ul>
+        <li>完成硬件系统全流程开发与量产验证</li>
+        <li>实现 AI 驱动的多参数环境控制与节能策略</li>
+        <li>建立可规模化生产的硬件架构与标准化文档体系</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>💼 技术栈与工具</h2>
+      <span class="badge">Hardware Design</span>
+      <span class="badge">RS485</span>
+      <span class="badge">EDA (嘉立创)</span>
+      <span class="badge">SP3485</span>
+      <span class="badge">AI Control</span>
+    </section>
+
+    <section class="card contact">
+      <h2>📫 联系方式</h2>
+      <p>📧 邮箱：<a href="mailto:your_email@example.com">your_email@example.com</a></p>
+      <p>🔗 GitHub：<a href="https://github.com/yourname" target="_blank">github.com/yourname</a></p>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 硬件工程师作品集 | GitHub Pages
+  </footer>
+</body>
+</html>
